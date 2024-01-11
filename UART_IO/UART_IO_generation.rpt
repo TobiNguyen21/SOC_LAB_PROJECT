@@ -1,0 +1,133 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\Z_MT_NHUNG\FPGA_Workspace\TEST_0\UART_IO\UART_IO.qsys --block-symbol-file --output-directory=D:\Z_MT_NHUNG\FPGA_Workspace\TEST_0\UART_IO\UART_IO --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading UART_IO/UART_IO.qsys
+Progress: Reading input file
+Progress: Adding clk_50 [clock_source 18.1]
+Progress: Parameterizing module clk_50
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding nios2_qsys [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_qsys
+Progress: Adding onchip_memory2 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2
+Progress: Adding pio_button [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_button
+Progress: Adding pio_led [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_led
+Progress: Adding pio_switch [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_switch
+Progress: Adding pll_sys [altera_pll 18.1]
+Progress: Parameterizing module pll_sys
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: UART_IO.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: UART_IO.pio_button: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: UART_IO.pio_switch: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: UART_IO.pll_sys: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: UART_IO.pll_sys: Able to implement PLL with user settings
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\Z_MT_NHUNG\FPGA_Workspace\TEST_0\UART_IO\UART_IO.qsys --synthesis=VERILOG --output-directory=D:\Z_MT_NHUNG\FPGA_Workspace\TEST_0\UART_IO\UART_IO\synthesis --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading UART_IO/UART_IO.qsys
+Progress: Reading input file
+Progress: Adding clk_50 [clock_source 18.1]
+Progress: Parameterizing module clk_50
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding nios2_qsys [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_qsys
+Progress: Adding onchip_memory2 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2
+Progress: Adding pio_button [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_button
+Progress: Adding pio_led [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_led
+Progress: Adding pio_switch [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_switch
+Progress: Adding pll_sys [altera_pll 18.1]
+Progress: Parameterizing module pll_sys
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: UART_IO.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: UART_IO.pio_button: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: UART_IO.pio_switch: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: UART_IO.pll_sys: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: UART_IO.pll_sys: Able to implement PLL with user settings
+Info: UART_IO: Generating UART_IO "UART_IO" for QUARTUS_SYNTH
+Info: jtag_uart: Starting RTL generation for module 'UART_IO_jtag_uart'
+Info: jtag_uart:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=UART_IO_jtag_uart --dir=C:/Users/LAPTOP~1/AppData/Local/Temp/alt9733_7446156217116151953.dir/0002_jtag_uart_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/LAPTOP~1/AppData/Local/Temp/alt9733_7446156217116151953.dir/0002_jtag_uart_gen//UART_IO_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'UART_IO_jtag_uart'
+Info: jtag_uart: "UART_IO" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: nios2_qsys: "UART_IO" instantiated altera_nios2_gen2 "nios2_qsys"
+Info: onchip_memory2: Starting RTL generation for module 'UART_IO_onchip_memory2'
+Info: onchip_memory2:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=UART_IO_onchip_memory2 --dir=C:/Users/LAPTOP~1/AppData/Local/Temp/alt9733_7446156217116151953.dir/0003_onchip_memory2_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/LAPTOP~1/AppData/Local/Temp/alt9733_7446156217116151953.dir/0003_onchip_memory2_gen//UART_IO_onchip_memory2_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2: Done RTL generation for module 'UART_IO_onchip_memory2'
+Info: onchip_memory2: "UART_IO" instantiated altera_avalon_onchip_memory2 "onchip_memory2"
+Info: pio_button: Starting RTL generation for module 'UART_IO_pio_button'
+Info: pio_button:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=UART_IO_pio_button --dir=C:/Users/LAPTOP~1/AppData/Local/Temp/alt9733_7446156217116151953.dir/0004_pio_button_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/LAPTOP~1/AppData/Local/Temp/alt9733_7446156217116151953.dir/0004_pio_button_gen//UART_IO_pio_button_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_button: Done RTL generation for module 'UART_IO_pio_button'
+Info: pio_button: "UART_IO" instantiated altera_avalon_pio "pio_button"
+Info: pio_led: Starting RTL generation for module 'UART_IO_pio_led'
+Info: pio_led:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=UART_IO_pio_led --dir=C:/Users/LAPTOP~1/AppData/Local/Temp/alt9733_7446156217116151953.dir/0005_pio_led_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/LAPTOP~1/AppData/Local/Temp/alt9733_7446156217116151953.dir/0005_pio_led_gen//UART_IO_pio_led_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_led: Done RTL generation for module 'UART_IO_pio_led'
+Info: pio_led: "UART_IO" instantiated altera_avalon_pio "pio_led"
+Info: pio_switch: Starting RTL generation for module 'UART_IO_pio_switch'
+Info: pio_switch:   Generation command is [exec D:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I D:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=UART_IO_pio_switch --dir=C:/Users/LAPTOP~1/AppData/Local/Temp/alt9733_7446156217116151953.dir/0006_pio_switch_gen/ --quartus_dir=D:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/LAPTOP~1/AppData/Local/Temp/alt9733_7446156217116151953.dir/0006_pio_switch_gen//UART_IO_pio_switch_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_switch: Done RTL generation for module 'UART_IO_pio_switch'
+Info: pio_switch: "UART_IO" instantiated altera_avalon_pio "pio_switch"
+Info: pll_sys: "UART_IO" instantiated altera_pll "pll_sys"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "UART_IO" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "UART_IO" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "UART_IO" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'UART_IO_nios2_qsys_cpu'
+Info: cpu:   Generation command is [exec D:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I D:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I D:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- D:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=UART_IO_nios2_qsys_cpu --dir=C:/Users/LAPTOP~1/AppData/Local/Temp/alt9733_7446156217116151953.dir/0010_cpu_gen/ --quartus_bindir=D:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/LAPTOP~1/AppData/Local/Temp/alt9733_7446156217116151953.dir/0010_cpu_gen//UART_IO_nios2_qsys_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2024.01.11 16:39:39 (*) Starting Nios II generation
+Info: cpu: # 2024.01.11 16:39:39 (*)   Checking for plaintext license.
+Info: cpu: # 2024.01.11 16:39:39 (*)   Couldn't query license setup in Quartus directory D:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2024.01.11 16:39:39 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2024.01.11 16:39:39 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2024.01.11 16:39:39 (*)   Plaintext license not found.
+Info: cpu: # 2024.01.11 16:39:39 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2024.01.11 16:39:39 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2024.01.11 16:39:39 (*)   Creating all objects for CPU
+Info: cpu: # 2024.01.11 16:39:41 (*)   Generating RTL from CPU objects
+Info: cpu: # 2024.01.11 16:39:41 (*)   Creating plain-text RTL
+Info: cpu: # 2024.01.11 16:39:41 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'UART_IO_nios2_qsys_cpu'
+Info: cpu: "nios2_qsys" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_qsys_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_qsys_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: nios2_qsys_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_qsys_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file D:/Z_MT_NHUNG/FPGA_Workspace/TEST_0/UART_IO/UART_IO/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/Z_MT_NHUNG/FPGA_Workspace/TEST_0/UART_IO/UART_IO/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file D:/Z_MT_NHUNG/FPGA_Workspace/TEST_0/UART_IO/UART_IO/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: UART_IO: Done "UART_IO" with 30 modules, 44 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

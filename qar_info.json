@@ -1,0 +1,7 @@
+{
+	"common_dir" : "D:/DE10_Nano/UART_Demonstration/",
+	"acds_version" : "Version 17.1.0",
+	"platform" : "windows",
+	"os" : "Windows 7",
+	"qpf" : "UART_Demonstration.qpf"
+}

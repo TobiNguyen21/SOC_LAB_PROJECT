@@ -1,0 +1,128 @@
+Restore Archived Project report for UART_Demonstration
+Wed Feb 28 19:00:09 2018
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Wed Feb 28 19:00:09 2018 ;
+; Revision Name                   ; UART_Demonstration                    ;
+; Top-level Entity Name           ; Uart_Demo_Top                         ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'D:/DE10_Nano/UART_Demonstration/UART_Demonstration_tmp_archive.qar' into the 'D:/DE10_Nano/UART_IO' directory
+Info: Generated report 'UART_Demonstration.restore.rpt'
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Files Restored                                                                                                    ;
++-------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                         ;
++-------------------------------------------------------------------------------------------------------------------+
+; qar_info.json                                                                                                     ;
+; UART_Demonstration.qpf                                                                                            ;
+; UART_Demonstration.qsf                                                                                            ;
+; UART_Demonstration.qsys                                                                                           ;
+; UART_Demonstration.sopcinfo                                                                                       ;
+; UART_Demonstration/UART_Demonstration.cmp                                                                         ;
+; UART_Demonstration/synthesis/UART_Demonstration.debuginfo                                                         ;
+; UART_Demonstration/synthesis/UART_Demonstration.qip                                                               ;
+; UART_Demonstration/synthesis/UART_Demonstration.regmap                                                            ;
+; UART_Demonstration/synthesis/UART_Demonstration.vhd                                                               ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_irq_mapper.sv                                          ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_jtag_uart.v                                            ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0.v                                    ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_avalon_st_adapter.v                  ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_cmd_demux.sv                         ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_cmd_demux_001.sv                     ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_cmd_mux.sv                           ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_cmd_mux_001.sv                       ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_router.sv                            ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_router_001.sv                        ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_router_002.sv                        ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_router_003.sv                        ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_rsp_demux.sv                         ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_rsp_demux_001.sv                     ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_rsp_mux.sv                           ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_mm_interconnect_0_rsp_mux_001.sv                       ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys.ocp                                         ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys.sdc                                         ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys.v                                           ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys_bht_ram.mif                                 ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys_dc_tag_ram.mif                              ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys_ic_tag_ram.mif                              ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys_jtag_debug_module_sysclk.v                  ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys_jtag_debug_module_tck.v                     ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys_jtag_debug_module_wrapper.v                 ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys_mult_cell.v                                 ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys_oci_test_bench.v                            ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys_ociram_default_contents.mif                 ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys_rf_ram_a.mif                                ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys_rf_ram_b.mif                                ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_nios2_qsys_test_bench.v                                ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_onchip_memory2.hex                                     ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_onchip_memory2.v                                       ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_pll_sys.qip                                            ;
+; UART_Demonstration/synthesis/submodules/UART_Demonstration_pll_sys.v                                              ;
+; UART_Demonstration/synthesis/submodules/altera_avalon_sc_fifo.v                                                   ;
+; UART_Demonstration/synthesis/submodules/altera_avalon_st_pipeline_base.v                                          ;
+; UART_Demonstration/synthesis/submodules/altera_merlin_arbitrator.sv                                               ;
+; UART_Demonstration/synthesis/submodules/altera_merlin_burst_uncompressor.sv                                       ;
+; UART_Demonstration/synthesis/submodules/altera_merlin_master_agent.sv                                             ;
+; UART_Demonstration/synthesis/submodules/altera_merlin_master_translator.sv                                        ;
+; UART_Demonstration/synthesis/submodules/altera_merlin_reorder_memory.sv                                           ;
+; UART_Demonstration/synthesis/submodules/altera_merlin_slave_agent.sv                                              ;
+; UART_Demonstration/synthesis/submodules/altera_merlin_slave_translator.sv                                         ;
+; UART_Demonstration/synthesis/submodules/altera_merlin_traffic_limiter.sv                                          ;
+; UART_Demonstration/synthesis/submodules/altera_reset_controller.sdc                                               ;
+; UART_Demonstration/synthesis/submodules/altera_reset_controller.v                                                 ;
+; UART_Demonstration/synthesis/submodules/altera_reset_synchronizer.v                                               ;
+; Uart_Demo_Top.bdf                                                                                                 ;
+; assignment_defaults.qdf                                                                                           ;
++-------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

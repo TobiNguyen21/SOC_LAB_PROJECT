@@ -1,0 +1,184 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 264 272 432 288)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "CLOCK_50" (rect 5 0 61 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 264 312 432 328)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "KEY[1..0]" (rect 5 0 54 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 264 392 432 408)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "SW[2..0]" (rect 5 0 49 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 264 432 432 448)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "KEY[2]" (rect 5 0 41 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 256 352 432 368)
+	(text "OUTPUT" (rect 137 6 175 16)(font "Arial" (font_size 6)))
+	(text "LEDR[7..0]" (rect 5 4 60 16)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 176 8)(pt 124 8))
+		(line (pt 124 12)(pt 98 12))
+		(line (pt 124 4)(pt 98 4))
+		(line (pt 124 4)(pt 124 12))
+		(line (pt 98 12)(pt 94 8))
+		(line (pt 94 8)(pt 98 4))
+		(line (pt 98 4)(pt 94 8))
+	)
+	(rotate180)
+)
+(symbol
+	(rect 432 208 992 472)
+	(text "UART_IO" (rect 252 -1 315 15)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 248 25 260)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 41 75)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 240 72))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "pio_button_external_connection_export[1..0]" (rect 0 0 253 14)(font "Arial" (font_size 8)))
+		(text "pio_button_external_connection_export[1..0]" (rect 4 101 257 115)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 240 112)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "pio_switch_external_connection_export[2..0]" (rect 0 0 257 14)(font "Arial" (font_size 8)))
+		(text "pio_switch_external_connection_export[2..0]" (rect 4 181 261 195)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 240 192)(line_width 3))
+	)
+	(port
+		(pt 0 232)
+		(input)
+		(text "reset_reset_n" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 221 84 235)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 240 232))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "pio_led_external_connection_export[7..0]" (rect 0 0 234 14)(font "Arial" (font_size 8)))
+		(text "pio_led_external_connection_export[7..0]" (rect 4 141 238 155)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 240 152)(line_width 3))
+	)
+	(port
+		(pt 560 72)
+		(output)
+		(text "pll_sys_locked_export" (rect 0 0 127 14)(font "Arial" (font_size 8)))
+		(text "pll_sys_locked_export" (rect 447 61 574 75)(font "Arial" (font_size 8)))
+		(line (pt 560 72)(pt 320 72))
+	)
+	(drawing
+		(text "clk" (rect 225 43 242 58)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 245 67 259 79)(font "Arial" (color 0 0 0)))
+		(text "pio_button_external_connection" (rect 57 83 263 98)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 245 107 275 119)(font "Arial" (color 0 0 0)))
+		(text "pio_led_external_connection" (rect 76 123 262 138)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 245 147 275 159)(font "Arial" (color 0 0 0)))
+		(text "pio_switch_external_connection" (rect 56 163 263 178)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 245 187 275 199)(font "Arial" (color 0 0 0)))
+		(text "pll_sys_locked" (rect 321 43 417 58)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 290 67 320 79)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 211 203 244 218)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 245 227 281 239)(font "Arial" (color 0 0 0)))
+		(text " UART_IO " (rect 512 248 566 260)(font "Arial" ))
+		(line (pt 240 32)(pt 320 32))
+		(line (pt 320 32)(pt 320 248))
+		(line (pt 240 248)(pt 320 248))
+		(line (pt 240 32)(pt 240 248))
+		(line (pt 241 52)(pt 241 76))
+		(line (pt 242 52)(pt 242 76))
+		(line (pt 241 92)(pt 241 116))
+		(line (pt 242 92)(pt 242 116))
+		(line (pt 241 132)(pt 241 156))
+		(line (pt 242 132)(pt 242 156))
+		(line (pt 241 172)(pt 241 196))
+		(line (pt 242 172)(pt 242 196))
+		(line (pt 319 52)(pt 319 76))
+		(line (pt 318 52)(pt 318 76))
+		(line (pt 241 212)(pt 241 236))
+		(line (pt 242 212)(pt 242 236))
+		(line (pt 0 0)(pt 560 0))
+		(line (pt 560 0)(pt 560 264))
+		(line (pt 0 264)(pt 560 264))
+		(line (pt 0 0)(pt 0 264))
+	)
+)
